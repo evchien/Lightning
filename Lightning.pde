@@ -1,4 +1,4 @@
-int startX = 150;
+int startX = (int)(Math.random()*20)+140;
 int startY = 0;
 int endX;
 int endY;
@@ -28,8 +28,8 @@ void draw()
 }
 void mousePressed()
 {
-  startX = 150;
+  startX = (int)(Math.random()*20)+140;
   startY = 0;
-  endX = 150;
+  endX = (int)(Math.random()*20)+140;
   endY = 0;
 }
